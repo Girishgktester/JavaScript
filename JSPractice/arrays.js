@@ -44,6 +44,28 @@ let arr2 = ['d', 'e', 'f'];
 let arr3 = arr1.concat(arr2);
 console.log(arr3);  // Output: ['a', 'b', 'c', 'd', 'e', 'f']
 
+//indexOf
+let fruits1 = ['apple', 'banana', 'mango', 'orange', 'strawberry'];
+let index = fruits1.indexOf('mango');
+console.log(index);  // Output: 2
+// if the value is not present it will return -1
 
+//lastIndexOf
+let fruits2 = ['apple', 'banana', 'mango', 'orange', 'strawberry', 'banana'];
+let index1 = fruits2.lastIndexOf('banana');
+console.log(index1);  // Output: 5
+
+// includes
+let testarray = ["admin", "user", "editor"];
+let result = testarray.includes("admin");
+let result1 = testarray.includes("admin2");
+console.log(result1);  // Output: false
+console.log(result);  // Output: true
+
+// forEach
+let numbers1 = [1, 2, 3, 4, 5];
+numbers1.forEach(function (element) {
+    console.log(element);
+});
 
 
