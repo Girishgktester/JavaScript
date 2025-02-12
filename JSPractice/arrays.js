@@ -15,4 +15,9 @@ number.pop();  // remove the last element
 console.log(number);
 
 
+//shift method 
+let firstFruit = fruits.shift();  // remove the first element from the array
+console.log(firstFruit);
+
+
 
