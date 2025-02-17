@@ -28,23 +28,24 @@ const person = {
 }
 console.log(getName(person));  // Output: John 30
 
-
-const greet = (username= 'guest', age = 18) => `Hello ${username} ${age}`;
+const greet = (username = 'guest', age = 18) => `Hello ${username} ${age}`;
 
 console.log(greet());  // Output: Hello guest 18
 
-
 // rest parameter ... varArgs    
-const sum =   (...varArgs) =>  varArgs.reduce((acc, curr) => acc + curr, 0);  // Output: 15
+const sum = (...varArgs) => varArgs.reduce((acc, curr) => acc + curr, 0);  // Output: 15
 console.log(sum(1, 2, 3, 4, 5));  // Output: 15
- 
-const browserDetails =  (browser = "chromoe", ...details) => {
+
+const browserDetails = (browser = "chromoe", ...details) => {
     console.log('browser : ${browser}');
-    console.log('details',  details);
+    console.log('details', details);
 
 }
 
 browserDetails();
 browserDetails('firefox', 'v89', 'mac', '64-bit');
+
+
+
 
 
