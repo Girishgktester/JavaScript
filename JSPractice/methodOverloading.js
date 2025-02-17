@@ -1,18 +1,18 @@
-// function print(){
-//     console.log('Hello');
-// }
+function print(){
+    console.log('Hello');
+}
 
 
-// function print(){
-//     console.log('Hello1');
-// }
+function print(){
+    console.log('Hello1');
+}
 
 
-// function print(name, age){
+function print(name, age){
 
-//     console.log(`name : ${name} age : ${age}`);
-// }
-// print('John', 30);
+    console.log(`name : ${name} age : ${age}`);
+}
+print('John', 30);
 
 
 function displayBrowser(browserName, browserVersion, remote) {
