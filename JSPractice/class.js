@@ -1,4 +1,4 @@
-class car{
+class Car{
 
     constructor(name, price, model){
         this.name = name;
@@ -13,7 +13,7 @@ class car{
 }
 
 
-const car1 = new car('Audi', 50000, 'A6');
+const car1 = new Car('Audi', 50000, 'A6');
 console.log(car1.name);
 console.log(car1.price);
 console.log(car1.model);
