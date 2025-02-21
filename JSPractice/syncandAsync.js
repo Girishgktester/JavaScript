@@ -23,3 +23,6 @@ function performTaskAsync() {
 
 performTaskAsync();
 console.log('Task 3: End');
+
+
+
