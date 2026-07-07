@@ -39,3 +39,7 @@ if(time >3){
 }
 
 // console.log(msg);  // Output: ReferenceError: msg is not defined
+
+const pi = 3.14;
+// pi = 3.14159;  // This will throw an error because 'pi' is a constant and cannot be reassigned
+ 
