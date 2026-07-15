@@ -56,3 +56,35 @@ let stringloop = ['apple', 'banana', 'mango', 'orange', 'strawberry'];
 stringloop.forEach((e) => {
   console.log(e);
 });
+
+//filter 
+let numbersfilter = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let evenNumbers = numbersfilter.filter((num) => num % 2 === 0);
+console.log(evenNumbers);  // Output: [2, 4, 6, 8, 10]
+
+// filter works by taking a callback function as an argument and returns a new array containing all the elements that pass the test implemented by the provided function. In this case, we are checking if the number is even by using the modulus operator (%). If the number is even, it will be included in the new array.
+
+// write simple example of filter
+
+let ages = [12, 17, 20, 25, 30];
+let adults = ages.filter((age) => age >= 18);
+console.log(adults);  // Output: [20, 25, 30]
+
+// explain above example of filter
+// In the above example, we have an array of ages. We use the filter method to create a new array called 'adults'
+//  that contains only the ages that are 18 or older. The callback function checks if each age is greater than or equal to 18, 
+// and if it is, that age is included in the new 'adults' array. The result is an array of adult ages: [20, 25, 30].
+
+// sort
+let numberssort = [5, 2, 9, 1, 5, 6];
+numberssort.sort((a, b) => a - b);
+console.log(numberssort);  // Output: [1, 2, 5, 5, 6, 9]
+
+// explain above example of sort
+// In the above example, we have an array of numbers called 'numberssort'. 
+// We use the sort method to sort the array in ascending order.
+// The sort method takes a compare function as an argument, which defines the sort order.
+// The compare function takes two arguments (a and b) and returns a negative value if a should come before b, 
+// a positive value if a should come after b, or 0 if they are equal.
+//  In this case, we subtract b from a to sort the numbers in ascending order. 
+// The result is a sorted array: [1, 2, 5, 5, 6, 9].
